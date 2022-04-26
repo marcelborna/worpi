@@ -50,10 +50,6 @@ def create_file_only():
 	list_x = {}
 	cur_adr = os.path.expanduser('~')
 	#################################################################################################
-	'''
-	zkusím to glob.glob(), protože výstup je asi seznam všech adres a prvky tohoto seznamu bych 
-	nějak dal do slovníku, tak, aby byl přijatelný print() s key = číslo abs.adr.: abs.adr.
-	'''
 
 	x1 = input('adr. nadřazené složky bez "~": ')
 	x2 = cur_adr + '/' + x1 + '*'
@@ -156,7 +152,7 @@ def wiu_v3():
 	print()
 	t = datetime.now()
 	t_main = t.strftime('%d.%m.%Y')
-	a = '/home/marcel/Plocha/marcel_backup/python/'
+	a = str(input('zadej absolutní adresu složky ve formě /.../.../: '))
 	for path, subdir, files in os.walk(a):
 		for name in files:
 			o = os.path.join(path, name)
