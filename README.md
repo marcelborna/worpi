@@ -12,5 +12,15 @@ Establishing a new project:
 3. automatically creates a b version of the created file, thanks to which it then creates a report of changes 
 that I made in the master file, then creates a file in which the history of changes based on the b file and a file 
 for writing project documentation is stored.
+Second example:
+Edit any file:
+Edit any file:
+1. enter the address of the parent folder in which the project folder is located
+2. the program will offer me a numerically indexed list of all subfolders of the parent folder (then it is easier for me to switch to the specified subfolder (I do not have to write the address))
+3. I choose the folder number and enter it into the program
+4. the program will offer me a numerically indexed list of files that the folder contains
+5. I enter the number of the file into the program and nano opens automatically and I can edit
+6. After saving the changes, the program automatically detects what I have edited and records this information in the change history file.
+
 The program is not in the English version, because I do not assume that anyone will be interested in it, 
 even if only for inspiration (so why would I bother :-))
