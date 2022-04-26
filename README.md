@@ -2,8 +2,7 @@
 A prototype of a private Swiss Army knife for easier handling of folders, files and their creation, also includes a task list, etc. 
 Everything that makes my work more pleasant or can be more enjoyable.
 ...
-This program fits my work ergonomics, so it may not suit everyone. It makes it easier for me to create folders and files, creates a list of updated 
-files so that I know what to store on the cloud or external drive (despite the fact that I also use git) I save system resources and time, 
+This program fits my work ergonomics, so it may not suit everyone. And I emphasize: it's a prototype in development. It makes it easier for me to create folders and files, creates a list of updated files so that I know what to store on the cloud or external drive (despite the fact that I also use git) I save system resources and time, 
 because this way of versioning is much easier than git )), contains a task list, watches over my time at the computer (if I want to). 
 Expanding this program does not set limits, because it is primarily designed to improve the ergonomics of my work.
 Example of working in the system:
