@@ -83,7 +83,7 @@ def create_folder_file(): # vytvoří file + automaticky file ..._b.py(nebo coko
 	t = datetime.now()
 	t_m = t.strftime('%d.%m.%Y %H.%M.%S')
 	cur_adr = os.path.expanduser('~') # abych se nemusel dřít s home/marcel/
-	adr = input('zadej adresu(formát: .../.../): ') # zadání /.../.../.../
+	adr = input('zadej adresu bez ~, tedy bez home/.../(formát: .../.../): ') # zadání /.../.../.../
 	ca = cur_adr + '/' + adr
 	name = input('zadej název souboru: ') # zadání jména souboru bez přípony
 	suffix = input('přípona souboru: ') # zadání přípony souboru
